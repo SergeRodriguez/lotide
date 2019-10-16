@@ -1,7 +1,6 @@
 const letterPositions = function (sentence) {
   const results = {};
   const allItems = sentence.split("")
-  console.log(allItems);
 
   for (let i = 0; i < allItems.length; i++) {
     if (allItems[i] !== " ") {
