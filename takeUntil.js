@@ -1,7 +1,7 @@
-const takeUntil = function(array, callback) {
+const takeUntil = function (array, callback) {
   const results = []
-  for(item of array){
-    if(!callback(item)){
+  for (item of array) {
+    if (!callback(item)) {
       results.push(item)
     } else {
       return results
@@ -47,8 +47,8 @@ console.log(results2);
 // ---
 // [ 'I\'ve', 'been', 'to', 'Hollywood' ]
 
-assertArraysEqual(results1, [ 1, 2, 5, 7, 2 ]);
-assertArraysEqual(results2, [ 'I\'ve', 'been', 'to', 'Hollywood' ]);
-assertArraysEqual(results1, [ 1, 2, 5, 2 ]);
+assertArraysEqual(results1, [1, 2, 5, 7, 2]);
+assertArraysEqual(results2, ['I\'ve', 'been', 'to', 'Hollywood']);
+assertArraysEqual(results1, [1, 2, 5, 2]);
 
 
