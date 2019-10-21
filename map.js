@@ -41,3 +41,5 @@ console.log(results3);
 assertArraysEqual(results1, ["g","c","t","m","t"])
 assertArraysEqual(results2, ["o","n",undefined,"j","m"])
 assertArraysEqual(results3, [NaN,NaN,NaN,NaN,NaN])
+
+module.exports = map;
