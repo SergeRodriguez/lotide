@@ -1,6 +1,3 @@
-const assertEqual = require("./assertEqual")
-
-
 const tail = function (arr) {
   return arr.slice(1);
 };
@@ -19,3 +16,5 @@ module.exports = tail;
 // assertEqual(arr.length, 1); // 
 // assertEqual(arr[0], "Hello"); // ensure first element is "Hello"
 // assertEqual(arr[1], undefined); // 
+
+console.log(tail([]))
